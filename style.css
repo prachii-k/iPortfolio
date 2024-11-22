@@ -1,0 +1,192 @@
+/* display background color black on navbar scroll */
+.navbarScroll {
+    background-color: transparent;
+    transition: background-color 500ms ease;
+}
+.navbarScroll.navbarDark {
+    background-color: black;
+    transition: 500ms;
+}
+.nav-link{
+    font-size: 1.7rem;
+}
+
+/* hero background image */
+.bgimage {
+    height: 100vh;
+    background: url("images/flat-lay-workstation-with-copy-space-laptop_23-2148430879.avif");
+    background-size: cover;
+    position: relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#about,#education,#skills {
+    background-color: #e2e2e2;
+}
+
+
+#about .container {
+    max-width: 1200px;
+}
+
+#about h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: #333;
+    font-weight: 600;
+}
+
+#about p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+}
+
+#about .img-fluid {
+    border: 5px solid #ddd;
+    transition: transform 0.3s ease-in-out;
+}
+
+#about .img-fluid:hover {
+    transform: scale(1.05);
+}
+
+#about .col-lg-8 {
+    padding-left: 30px;
+}
+
+#about .text-justify {
+    text-align: justify;
+}
+
+#about .col-lg-4 {
+    position: relative;
+}
+
+#about .col-lg-8 {
+    position: relative;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    #about .row {
+        text-align: center;
+    }
+
+    #about .col-lg-4 {
+        margin-bottom: 30px;
+    }
+
+    #about h1 {
+        font-size: 28px;
+    }
+
+    #about p {
+        font-size: 1rem;
+    }
+}
+#portfolio{
+    background-color: #e2e2e2;
+}
+.custom-card {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card-img-top {
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    height: 200px;
+}
+
+.custom-card-body {
+    padding: 20px;
+    background-color: white;
+}
+
+.custom-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.text-center a {
+    color: white;
+    background-color: gray;
+
+}
+.text-center a:hover {
+    color: white;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+
+/* skills section css */
+.skillsText.card {
+    height: 200px;
+    cursor: pointer;
+}
+.skillsIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card:hover .skillsIcon {
+    color: #0077b5;
+}
+.skillsText:hover {
+    border: 1px solid #0077b5;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.fa-github {
+    color: #000000;
+}
+.fa-linkedin {
+    color: #0077b5;
+}
+/* footer styling */
+/* Horizontal line divider */
+.section-divider {
+    width: 70%;
+    margin: 20px auto;
+    border: 1px solid #d3d3d3; /* light grey */
+}
+
+/* Footer styling */
+#footer {
+    background-color: #454545 ;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.fa-github {
+    color: #000;
+}
+.fa-linkedin {
+    color: #000;
+}
